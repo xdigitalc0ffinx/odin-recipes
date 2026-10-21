@@ -1,7 +1,7 @@
  # Recipe Page 
 ## HTML Foundations @ TheOdinProject
 
-In this project I will apply some of the basic HTLM learned on this unit and some of the stuff I learned on the FreeCodeCamp last year-ish
+In this project I will apply some of the basic HTML learned on this unit and some of the stuff I learned on the FreeCodeCamp last year-ish
 
 #### Why am I doing this?
 
