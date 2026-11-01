@@ -18,7 +18,8 @@ body h3{
 }
 
 body h4{
-  font-size: 1.6rem;
+  font-size: 1.4rem;
+  font-weight: 300;
 }
 
 .head-cont{
@@ -134,7 +135,7 @@ ol{
 }
 
 .main-cont.main-recipe {
-  width: 60%;
+  max-width: 60%;
   display:flex;
   justify-content: center;
   border: solid 0.5rem #2C2C2C;
@@ -142,12 +143,39 @@ ol{
   padding: 2rem;
 }
   .recipe-intro{
+    width: 60%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     text-align: justify;
+    margin-inline: auto;
 }
  .recipe-list {
    display: flex;
-   gap: 1rem;
    justify-content: center;
+   gap: 2rem;
+}
+
+.ingredients-list{
+  width: 40%;
+}
+
+.recipe-list ul{
+  padding: 1.5rem;
+  font-size: 1rem;
+  line-height: 2rem;
+  text-align: left;
+
+}
+.step-list{
+  width: 60%;
+}
+
+.step-list ol{
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.step-list li{
+  margin-bottom: 1.5rem;
 }
